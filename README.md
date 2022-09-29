@@ -18,11 +18,8 @@ run parmed printDetails for original topology file, then read the output and fin
 	
 run parmed again this time with addLJType to make new type for atoms that we scale and then changeLJpair to scale epsilon for the selected atom pairs
   
-  
-do not use this for scaling topologies that are to be converted to gromacs!
-
-
 example:
 
 	python scaleSTAFIX.py complex.parm7 0.5 1,2,3,4,5,6
 
+do not use this for scaling topologies that are to be converted to gromacs!
