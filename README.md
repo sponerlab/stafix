@@ -1,6 +1,6 @@
 # stafix
 
-**scaleSTAFIX.py** is script to stafix-scale **Amber** topology with parmed tool of Ambertools
+**scaleSTAFIX.py** is script to stafix-scale **Amber** topology with parmed tool of Ambertools\n
 requirements:
 	parmed and python 3 (remove input/output type definitions for is_to_be_scaled function to use this also with python 2)
 usage:
