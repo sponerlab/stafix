@@ -4,7 +4,7 @@
 
 requirements:
 
-parmed and python 3 (remove input/output type definitions for is_to_be_scaled function to use this also with python 2)
+parmed and python 3 (remove input/output type definitions in is_to_be_scaled function to use this also with python 2)
 
 usage:
 
