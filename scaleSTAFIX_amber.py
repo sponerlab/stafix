@@ -9,7 +9,6 @@ flow:
 	run parmed printDetails for original topology file, then read the output and find atoms that are to be scaled (based on atomname and residuename) and get their IDs and LJ parameters
 	run parmed again this time with addLJType to make new type for atoms that we scale and then changeLJpair to scale epsilon for the selected atom pairs
 
-written by Pavlina Pokorna, 2022, nothing guaranteed.
 do not use this for scaling topologies that are to be converted to gromacs!
 """
 
