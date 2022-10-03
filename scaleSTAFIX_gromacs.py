@@ -9,7 +9,7 @@ usage:
 		[mask] is to be given in format resid1,resid2,resid3,... (e.g. 1,2,3,4). If no mask is specified, all RNA residues will be scaled"
 flow:
 	read original topology, get definitions of all present atomtypes from there and write a temporary topology that will have atomtypes of atoms that are to be scaled changed by appending "Y" to their atomtypename
-    sort atomtypes that are to be scaled
+    pick atomtypes that are to be scaled
     write new topology where [ nonbond_params ] section is added after [ atomtypes ] and contains definition of LJ params for scaled atomtypes (those with "Y" appended)
 to generate Gromacs topology from Amber top with parmed run in shell:
     parmed -e <<EOF
