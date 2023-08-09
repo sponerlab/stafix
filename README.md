@@ -38,3 +38,4 @@ read original topology, get definitions of all present atomtypes from there and 
 pick atomtypes that are to be scaled
 
 write new topology where [ nonbond_params ] section is added after [ atomtypes ] and contains definition of LJ params for scaled atomtypes (those with "Y" appended)
+
