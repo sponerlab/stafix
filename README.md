@@ -3,13 +3,13 @@
 
 **scaleSTAFIX_amber.py** and **scaleSTAFIX_gromacs.py** are scripts to stafix-scale **Amber** and **Gromacs** topologies. epsilon for Lennard-Jones interactions of specifc RNA atoms is scaled by user-specified factor. More details can be found here: https://doi.org/10.1101/2022.07.22.501120 
 
-requirements:
+**requirements:**
 
 python 3 (remove input/output type definitions in is_to_be_scaled() function to use this also with python 2)
 
 parmed - for scaleSTAFIX_amber.py (scaling is done via parmed tool of Ambertools)
 
-usage:
+**usage:**
 
 python scaleSTAFIX_amber.py parm_file scaling_factor [mask]
 	
@@ -23,7 +23,7 @@ example:
 
 do not use scaleSTAFIX_amber.py for scaling topologies that are to be converted to gromacs, use scaleSTAFIX_gromacs.py on gromacs topology instead!
 
-flows:
+**flows:**
 
 scaleSTAFIX_amber.py:
 
