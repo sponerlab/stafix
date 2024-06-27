@@ -94,6 +94,7 @@ inputTOPfilemane,inputTOPextension=os.path.splitext(inputTOP)
 topfile_new=inputTOPfilemane+"STAFIX"+str(scalefact)+inputTOPextension
 if mask=="*":
     	mask_print="all RNA residues"
+    	mask = [str(i) for i in range(10000)]
 else:
     mask_print=",".join(mask)
 
