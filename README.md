@@ -1,8 +1,7 @@
 # stafix
 
 
-**scaleSTAFIX_amber.py** and **scaleSTAFIX_gromacs.py** are scripts to stafix-scale **Amber** and **Gromacs** topologies. epsilon for Lennard-Jones interactions of specifc RNA atoms is scaled by user-specified factor. More details can be found here: https://doi.org/10.1101/2022.07.22.501120 
-
+**scaleSTAFIX_amber.py** and **scaleSTAFIX_gromacs.py** are scripts to stafix-scale **Amber** and **Gromacs** topologies. epsilon for Lennard-Jones interactions of specifc RNA atoms is scaled by user-specified factor. More details can be found here: https://doi.org/10.1093/nar/gkac1106
 **requirements:**
 
 python 3 (remove input/output type definitions in is_to_be_scaled() function to use this also with python 2)
